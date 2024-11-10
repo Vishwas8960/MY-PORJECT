@@ -1,0 +1,172 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: blue;
+}
+a { text-decoration:none; }
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color:yellow;
+    color: blueviolet;
+    transition:0.3s;
+    border-radius: 10%;
+     font-size:27px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.menu-icon {
+    display: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Hero section styles */
+.hero-section {
+    background: linear-gradient(120deg, #7de395, #c2e9fb);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header {
+
+    background-color:lightblue;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    margin-right: 15px; /* Space between logo and company name */
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: purple;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About section */
+.about-section, .projects-section, .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section h2, .projects-section h2, .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Project cards */
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  
+    bottom: 0;
+    width: 100%;
+}
+.social-media a img {
+  width: 30px; /* Set the width of the icon */
+  height: 30px; /* Set the height of the icon */
+  margin: 0 10px; /* Adds space between icons */
+  border-radius: 50%;
+}
+
+.social-media {
+  text-align: center; /* Center the icons */
+  padding: 20px; /* Add padding if needed */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .nav-links.show {
+        display: flex;
+    }
+}

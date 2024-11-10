@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Food Order</h1>
+    </header>
+    
+    <main>
+        <div class="food-item">
+            <img src="pizza.png" alt="Pizza">
+            <h2>Pizza</h2>
+            <p>80Rs</p>
+            <button class="add-to-cart" data-price="10">Add to Cart</button>
+            <button class="buy" data-price="10">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="burger.png" alt="Burger">
+            <h2>Burger</h2>
+            <p>40Rs</p>
+            <button class="add-to-cart" data-price="8">Add to Cart</button>
+            <button class="buy" data-price="8">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="Finger Food.png" alt="Finger Food">
+            <h2>Finger Food</h2>
+            <p>20Rs</p>
+            <button class="add-to-cart" data-price="5">Add to Cart</button>
+            <button class="buy" data-price="5">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="lassi.png" alt="Lassi">
+            <h2>Lassi</h2>
+            <p>30Rs</p>
+            <button class="add-to-cart" data-price="3">Add to Cart</button>
+            <button class="buy" data-price="3">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="bread pakoda.png" alt="Bread Pakoda">
+            <h2>bread pakoda</h2>
+            <p>20Rs</p>
+            <button class="add-to-cart" data-price="4">Add to Cart</button>
+            <button class="buy" data-price="4">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="chai.png" alt="Chai">
+            <h2>Chai</h2>
+            <p>10Rs</p>
+            <button class="add-to-cart" data-price="2">Add to Cart</button>
+            <button class="buy" data-price="2">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="biscuit.png" alt="Biscuit">
+            <h2>Biscuit</h2>
+            <p>10Rs</p>
+            <button class="add-to-cart" data-price="1">Add to Cart</button>
+            <button class="buy" data-price="1">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="Maggie.png" alt=" Chaumin">
+            <h2>Maggie </h2>
+            <p>30Rs</p>
+            <button class="add-to-cart" data-price="7">Add to Cart</button>
+            <button class="buy" data-price="7">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="cake.png" alt="Maggie Chaumin">
+            <h2>Cake</h2>
+            <p>30Rs</p>
+            <button class="add-to-cart" data-price="7">Add to Cart</button>
+            <button class="buy" data-price="7">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="coco ice shake.png" alt="Maggie Chaumin">
+            <h2>dark coco icecream shake</h2>
+            <p>130Rs</p>
+            <button class="add-to-cart" data-price="7">Add to Cart</button>
+            <button class="buy" data-price="7">Buy Now</button>
+        </div>
+        <div class="food-item">
+            <img src="icecream.png" alt="Maggie Chaumin">
+            <h2>iccream</h2>
+            <p>50Rs</p>
+            <button class="add-to-cart" data-price="7">Add to Cart</button>
+            <button class="buy" data-price="7">Buy Now</button>
+        </div>
+    </main>
+
+    <aside>
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <h3>Total: Rs<span id="total">0</span></h3>
+        <button id="checkout">Checkout</button>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</html>

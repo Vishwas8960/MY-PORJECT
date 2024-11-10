@@ -1,0 +1,18 @@
+pre{
+	color: darkblue;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 27px;
+}
+body {
+    background-image: url('C:\Users\VISHWAS\Desktop\background.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image tiling */
+    height: 100vh; /* Full viewport height */
+    color: white; /* Text color */
+    display: flex; /* Center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+}
